@@ -1465,3 +1465,11 @@ Processing by ArtistsController#index as HTML
 Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/artists" for ::1 at 2021-01-29 14:50:41 -0500
+Processing by ArtistsController#index as HTML
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (1.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  Rendered artists/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 116ms (Views: 91.4ms | ActiveRecord: 1.3ms)
+
+
